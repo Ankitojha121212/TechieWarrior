@@ -19,24 +19,21 @@ export default function Header() {
   <Link href="/about" className="text-lg font-medium text-white hover:text-red-500 transition duration-300">
     About Us
   </Link>
-  <a
-    href="#services"
-    className="text-lg font-medium text-white hover:text-red-500 transition duration-300"
-  >
-    Services
-  </a>
-  <a
-    href="#blog"
+<Link href="/Services" className="text-lg font-medium text-white hover:text-red-500 transition duration-300">Services</Link>
+
+
+  <Link
+    href="/blog"
     className="text-lg font-medium text-white hover:text-red-500 transition duration-300"
   >
     Blog
-  </a>
-  <a
-    href="#contact"
+  </Link>
+  <Link
+    href="/contact"
     className="text-lg font-medium text-white hover:text-red-500 transition duration-300"
   >
     Contact
-  </a>
+  </Link>
 </nav>
 
 

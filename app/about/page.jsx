@@ -90,10 +90,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Footer Section */}
-      <footer className="bg-black text-white py-6 text-center">
-        <p>&copy; 2025 [Company Name]. All Rights Reserved.</p>
-      </footer>
+
     </div>
   );
 }
