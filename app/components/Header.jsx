@@ -16,6 +16,7 @@ export default function Header() {
 
     {/* Navigation Section */}
 <nav className="flex items-center space-x-6">
+  <Link href="/" className="text-lg font-medium text-white hover:text-red-500 transition duration-300">Home</Link>
   <Link href="/about" className="text-lg font-medium text-white hover:text-red-500 transition duration-300">
     About Us
   </Link>
