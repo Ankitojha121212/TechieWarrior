@@ -119,6 +119,7 @@ export default function About() {
             </div>
             <div
               className="p-8 bg-gray-100 rounded-lg shadow-lg animate__animated animate__fadeInUp"
+              
               style={{ animationDelay: "0.2s" }}
             >
               <h3 className="text-xl text-red-600 font-semibold">Proven Expertise</h3>
