@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "animate.css": "^4.1.1",
+    "framer-motion": "^12.0.6",
     "next": "15.1.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
+    "react-tsparticles": "^2.12.2",
     "techiepro": "file:"
   },
   "devDependencies": {
