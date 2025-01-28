@@ -39,7 +39,7 @@ const contact = () => {
           <h2 className="text-3xl font-bold text-center text-red-600 mb-6">
             Send Us a Message
           </h2>
-          <form className="bg-white rounded-lg shadow-lg p-8 space-y-6">
+          <form className="bg-white rounded-lg shadow-lg p-8 space-y-6" method="POST" action="/api/contact" >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <input
                 type="text"
