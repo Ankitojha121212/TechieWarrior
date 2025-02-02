@@ -1,6 +1,9 @@
 "use client";
 
+
 export default function Footer() {
+ 
+
   return (
     <footer className="relative bg-gradient-to-br from-red-600 to-black text-white">
       {/* Curved Section */}
@@ -20,29 +23,30 @@ export default function Footer() {
 
       {/* Footer Content */}
       <div className="relative z-10 px-8 py-16 text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Connect With Us
-        </h2>
+        <h2 className="text-3xl font-bold mb-4">Connect With Us</h2>
         <p className="mb-6">
           Let’s work together and make your dream project a reality!
         </p>
-        <button className="animate-pulse glossy-button transition-transform duration-300 transform hover:scale-110">
+        <button
+         
+          className="animate-pulse glossy-button transition-transform duration-300 transform hover:scale-110"
+        >
           Contact Us
         </button>
+      </div>
 
-        <div className="mt-8">
-          <ul className="flex justify-center space-x-6 text-sm">
-            <li className="hover:underline">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li className="hover:underline">
-              <a href="#">Terms of Service</a>
-            </li>
-            <li className="hover:underline">
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <div className="mt-8">
+        <ul className="flex justify-center text-red-500 space-x-6 text-sm">
+          <li className="hover:underline">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li className="hover:underline">
+            <a href="#">Terms of Service</a>
+          </li>
+          <li className="hover:underline">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </footer>
   );

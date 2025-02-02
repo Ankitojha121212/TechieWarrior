@@ -5,6 +5,7 @@ import { motion } from "framer-motion"; // For animations
 
 import Particles from "react-tsparticles";
 
+
 // Service Data
 const ServiceData = [
   {
@@ -162,8 +163,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Key Statistics */}
-      <section className="py-16 px-8 bg-gray-50">
+     {/* Key Statistics */}
+     <section className="py-16 px-8 bg-gray-50">
         <div className="max-w-6xl mx-auto text-center">
           <motion.h2
             initial={{ opacity: 0, y: -50 }}
@@ -211,12 +212,12 @@ export default function Home() {
               {
                 quote:
                   "Their team delivered exactly what we needed. Professional and efficient!",
-                name: "John Doe, CEO",
+                name: "Kishan, CEO of Kedia",
               },
               {
                 quote:
                   "Great experience! They turned our vision into reality with their expertise.",
-                name: "Jane Smith, Founder",
+                name: "Vivek Tiwari, Founder of TheGrowFood",
               },
             ].map((item, index) => (
               <motion.div
@@ -226,7 +227,7 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="p-8 bg-gray-100 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
               >
-                <p className="text-gray-700 italic">"{item.quote}"</p>
+                <p className="text-gray-700 italic">{item.quote}</p>
                 <h3 className="mt-4 text-red-600 font-bold">- {item.name}</h3>
               </motion.div>
             ))}
